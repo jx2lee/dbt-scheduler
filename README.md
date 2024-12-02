@@ -29,21 +29,6 @@ Kube-Native Scheduler with dbt - A daemon process that manages and schedules dbt
    yarn install
    ```
 
-### Structure
-```mermaid
-graph TD
-    A[dbt-scheduler] --> B[Backend]
-    A --> C[Frontend]
-    B --> D[CLI]
-    B --> E[Executors]
-    B --> F[Jobs]
-    C --> G[React UI]
-    D --> H[Run Command]
-    D --> I[Status Command]
-    E --> J[Job Execution]
-    F --> K[Job Definition]
-```
-
 ### Development
 1. Start the backend development server:
    ```bash
